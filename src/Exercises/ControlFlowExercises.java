@@ -56,8 +56,10 @@ import java.util.Scanner;
         }*/
 
 /*TABLE OF POWERS*/
+/*
 
-        /*public class ControlFlowExercises {
+        */
+public class ControlFlowExercises {
             public static void main(String[] args) {
                 Scanner scan = new Scanner(System.in);
                 System.out.println("What would you like to go up to?");
@@ -81,8 +83,13 @@ import java.util.Scanner;
                 }
             }
         }
+/*
 
-*//*Letter Grades*//*
+*//*
+*/
+/*Letter Grades*//*
+*/
+/*
         public class ControlFlowExercises {
             public static void main(String[] args) {
                 Scanner scan = new Scanner(System.in);
@@ -108,4 +115,4 @@ import java.util.Scanner;
 
             }
         }
-*/
+*/*/
