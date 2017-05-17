@@ -7,46 +7,22 @@ import java.util.Scanner;
  */
 public class Input {
 
-        private final Scanner in;
+    private Scanner scan;
 
-        public Input(){in = new Scanner(System.in);}
-
-        public  String getString() {
-            System.out.println("Enter a string: ");
-            return in.nextLine();
-        }
-
-        public boolean yesNo(){
-            System.out.println("Continue: (Y/n)");
-            return in.next().toLowerCase().equals("y");
-        }
-
-        public int getInt(int min, int max){
-            int getValue;
-            do{
-                System.out.printf("Enter an Integer between %d and %d ", min, max);
-                getValue = in.nextInt();
-            }while(getValue < min || getValue > max);
-            return getValue;
-        }
-
-        public int getInt(){
-            System.out.println("Enter an Integer: ");
-            return in.nextInt();
-        }
-
-        public double getDouble(double min, double max){
-            double getValue;
-            do{
-                System.out.printf("Enter a decimal number between %.3f and %.3f", min, max);
-                getValue = in.nextDouble();
-            }while(getValue < min || getValue > max);
-            return getValue;
-        }
-        public double getDouble(){
-            System.out.println("Enter a decimal number: ");
-            return in.nextDouble();
-        }
-
-
+    public Input() {
+        this.scan = new Scanner(System.in);
     }
+
+    public String getString(this.String) {
+        return scan.nextLine();
+    }
+
+    public boolean yesNo() {
+        string answer = this.getString();
+        if (answer.equalsIgnoreCase("y") || answer.equalsIgnoreCase("yes")) {
+            return true;
+        }
+
+        return false;
+    }
+}
