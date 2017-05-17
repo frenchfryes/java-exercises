@@ -1,4 +1,4 @@
-package Exercises;
+package Java2;
 
 /**
  * Created by frenchfryes on 5/16/17.
@@ -49,3 +49,4 @@ public class person {
     }
 
 }
+
