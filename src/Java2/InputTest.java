@@ -6,7 +6,7 @@ package Java2;
 public class InputTest {
     public static void main(String[] args) {
         Input entry = new Input();
-        system.out.println("Is today Wed");
-        system.out.println(entry.yesNo());
+        System.out.println("Is today Wed");
+        System.out.println(entry.yesNo());
     }
 }
