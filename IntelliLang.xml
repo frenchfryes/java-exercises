@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JAVA" injector-id="java">
+      <display-name>HttpServletResponse.sendRedirect (javax.servlet.http)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("sendRedirect").withParameters("java.lang.String").definedInClass("javax.servlet.http.HttpServletResponse"))]]></place>
+    </injection>
+  </component>
+</application>
