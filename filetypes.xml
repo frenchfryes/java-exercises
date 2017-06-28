@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="my_first_form" type="HTML" />
       <mapping pattern="my_first_form.html" type="PLAIN_TEXT" />
+      <mapping pattern=".build_config" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
